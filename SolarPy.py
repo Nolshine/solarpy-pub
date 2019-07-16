@@ -66,8 +66,8 @@ class Bot(discord.Client):
 
         # there are only a few files so i will store them in advance
         # (note that the files aren't included in the repo!)
-        self.horo_happy = discord.File('gifs/horo_happy.gif')
-        self.tearful_smile = discord.File('gifs/tearful_smile.gif')
+        # self.horo_happy = discord.File('gifs/horo_happy.gif')
+        # self.tearful_smile = discord.File('gifs/tearful_smile.gif')
 
         # some regex patterns for commands and some replies
         self.pattern_hug = re.compile(r"^("+self.user.name + r"|" + self.user.mention + r"),? give (.+) a hug", re.I | re.M)
